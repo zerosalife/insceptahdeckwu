@@ -11,10 +11,19 @@ You can follow it on twitter at http://twitter.com/insceptahdeckwu
 Download from http://github.com/zerosalife/insceptahdeckwu
 
 ## Usage
+To run:
+```
+$ crontab cronjob.txt
+```
 
-FIXME: explanation
+To quit:
+```
+crontab -r
+```
 
-    $ java -jar insceptahdeckwu-0.1.0-standalone.jar [args]
+Note if you have other cron jobs running, you can add and remove the
+cronjob for `insceptahdeckwu` on your own.
+
 
 ## Options
 

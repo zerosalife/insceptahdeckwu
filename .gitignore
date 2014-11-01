@@ -12,3 +12,7 @@ pom.xml.asc
 *#*
 
 .DS_STORE
+
+/resources
+/log
+corpus.txt

@@ -2,7 +2,7 @@
   (:require [net.cgrand.enlive-html :as html]
             [clojure.string :as s]))
 
-(def corpus-filename "resources/cleaned/corpus.txt")
+(def corpus-filename  "resources/cleaned/corpus.txt")
 
 (defn only-files
   "Filter a sequence of files/directories by the .isFile property of
@@ -33,7 +33,9 @@
        (not (contains-char? s \:))
        (not (contains-char? s \"))
        (not (contains-char? s \())
-       (not (empty? s))))
+       (seq s)))
+;;; http://clojuredocs.org/clojure_core/clojure.core/empty_q
+;;; Please use the idiom (seq x) rather than (not (empty? x))
 
 (defn make-corpus-text []
   "Returns a sequence of strings containing the text of the cleaned
