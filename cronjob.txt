@@ -1,1 +1,1 @@
-0 */2 * * * cd ~/projects/insceptahdeckwu/; ~/projects/insceptahdeckwu/target/insceptahdeckwu -s
+0 */7 * * * cd ~/projects/insceptahdeckwu/; ~/projects/insceptahdeckwu/target/insceptahdeckwu
