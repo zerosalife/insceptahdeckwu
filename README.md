@@ -31,7 +31,19 @@ FIXME: listing of options this app accepts.
 
 ## Examples
 
-...
+Call the binary with the `-h` to get help.  Use the `-s` flag to
+generate a string.  Use the `-t` flag to tweet.  (You must have the
+oauth tokens configured correctly to tweet).  If this is your first
+time using the bot, you can generate a new corpus file using the `-c`
+flag.
+
+```
+$ targets/insceptahdeckwu -s
+furs in here Yo yo Curses from the tape
+```
+
+
+
 
 ## License
 
