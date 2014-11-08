@@ -31,11 +31,6 @@ crontab -r
 Note if you have other cron jobs running, you can add and remove the
 cronjob for `insceptahdeckwu` on your own.
 
-
-## Options
-
-FIXME: listing of options this app accepts.
-
 ## Examples
 
 Call the binary with the `-h` to get help.  Use the `-s` flag to
