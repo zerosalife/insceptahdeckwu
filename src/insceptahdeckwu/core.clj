@@ -51,5 +51,6 @@
                                     corpus/corpus-filename))))
     (cond
      (:string options) (markov/print-string))
-    (:tweet options) (do (twitter/tweet)
-                         (exit 0 "Successfully tweeted."))))
+    (cond
+     (:tweet options) (do (twitter/tweet)
+                          (exit 0 "Successfully tweeted.")))))
